@@ -29,3 +29,8 @@ dd if=kernel/complete_os.bin of=fresh_os.img bs=512 seek=2 conv=notrunc
 
 # Run
 qemu-system-i386 -drive format=raw,file=fresh_os.img
+```
+## What it looks like:
+<img width="636" height="425" alt="Screenshot 2025-09-14 at 17 33 07" src="https://github.com/user-attachments/assets/5df1a86a-f267-4fd2-aa5e-92bf8d75f4b3" />
+<img width="635" height="427" alt="Screenshot 2025-09-14 at 17 35 04" src="https://github.com/user-attachments/assets/b27aa0af-1458-4e3a-b05e-359d27926466" />
+<img width="999" height="668" alt="Screenshot 2025-09-14 at 17 35 29" src="https://github.com/user-attachments/assets/9b84381a-a4e5-40de-86e7-e5ea441bda57" />
